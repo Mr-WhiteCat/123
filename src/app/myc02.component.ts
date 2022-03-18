@@ -8,4 +8,6 @@ import { Component } from "@angular/core";
 })
 export class MyC02Component{
 
+    //测试
+    
 }
