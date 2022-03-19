@@ -3,4 +3,16 @@
 <div>name:{{uname}}</div>
 <div>age:{{age}}</div>
 <div>age + 2 : {{age + 2}}</div>
+<!-- 算数运算 -->
 <div>isadult: {{age >= 18 ? 'adult' : 'not adoult'}}</div>
+<!-- 逻辑运算、三目运算 -->
+<div>uname_length:{{uname.length}}</div>
+<!-- 调用元素 -->
+<div>uppercase:{{uname.toUpperCase()}}</div>
+<!-- 调用函数 -->
+<div>The element with subscript 2:{{uname[2]}}</div>
+<!-- 元素 -->
+<!-- <div>The current time:{{new Date()}}</div> -->
+<!-- //错误：创建对象，ng表达式中禁止出现new关键字 -->
+<!-- <div>JSON 字符串：{{JSON.stringify({})}}</div> -->
+<!-- //错误：JSON序列化，ng表达式中JSON序列化是undefined-->
