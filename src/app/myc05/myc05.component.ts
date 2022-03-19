@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Myc05Component implements OnInit {
 
+  uname = 'ding dang'
+  age = 18
+
   constructor() { }
 
   ngOnInit(): void {
